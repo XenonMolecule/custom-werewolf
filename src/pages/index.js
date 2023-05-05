@@ -1,4 +1,4 @@
-import Player from "../components/player";
+import AudioPlayer from "../components/AudioPlayer"
 
 export default function Home() {
   return (
@@ -8,7 +8,7 @@ export default function Home() {
         <h1>
           Welcome to Custom Werewolf
         </h1>
-        <Player url="assets/audio/music/shark-tank.mp3"></Player>
+        <AudioPlayer></AudioPlayer>
 
       </main>
     </div>
